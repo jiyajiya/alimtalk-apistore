@@ -1,0 +1,30 @@
+{
+  "name": "alimtalk-apistore",
+  "version": "1.0.0",
+  "description": "Client library for the apistore's kakao alimtalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 \"./test/*.test.js\""
+  },
+  "keywords": [
+    "alimtalk",
+    "kakao"
+  ],
+  "author": "jiyajiya <jiya1445@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiyajiya/alimtalk-apistore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jiyajiya/alimtalk-apistore/issues"
+  },
+  "homepage": "https://github.com/jiyajiya/alimtalk-apistore#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nock": "^10.0.1"
+  }
+}
